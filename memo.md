@@ -20,4 +20,8 @@ typescript + react 開発で便利なextensionをインストールした.
 Basic Types: https://www.typescriptlang.org/docs/handbook/basic-types.html  
 [（日本語はこちら）](https://qiita.com/murank/items/9c1f633545842c953947) 
 
-
+## create react app!
+```
+$ npx create-react-app app-ts
+$ yarn add typescript @types/react @types/react-dom @types/node
+```
