@@ -20,8 +20,14 @@ typescript + react 開発で便利なextensionをインストールした.
 Basic Types: https://www.typescriptlang.org/docs/handbook/basic-types.html  
 [（日本語はこちら）](https://qiita.com/murank/items/9c1f633545842c953947) 
 
-## create react app!
+## app-tsディレクトリ
+`create-react-app` して、tsxで少し書く。ほんの少し。
+
 ```
 $ npx create-react-app app-ts
 $ yarn add typescript @types/react @types/react-dom @types/node
 ```
+
+## react-ts-webpackディレクトリ
+`npm init` から react + typescriptに必要なライブラリをinstallして、TODOアプリを作成。  
+[hook](https://reactjs.org/docs/hooks-intro.html) を使って作成する。
