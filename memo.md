@@ -30,4 +30,4 @@ $ yarn add typescript @types/react @types/react-dom @types/node
 
 ## react-ts-webpackディレクトリ
 `npm init` から react + typescriptに必要なライブラリをinstallして、TODOアプリを作成。  
-[hook](https://reactjs.org/docs/hooks-intro.html) を使って作成する。
+[hook](https://reactjs.org/docs/hooks-intro.html) のuseStateを使って作成する。
