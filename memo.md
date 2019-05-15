@@ -31,3 +31,6 @@ $ yarn add typescript @types/react @types/react-dom @types/node
 ## react-ts-webpackディレクトリ
 `npm init` から react + typescriptに必要なライブラリをinstallして、TODOアプリを作成。  
 [hook](https://reactjs.org/docs/hooks-intro.html) のuseStateを使って作成する。
+
+## app-ts-2ディレクトリ
+[hook](https://reactjs.org/docs/hooks-intro.html) のuseReducerを使ってcounterを試しに作った。
