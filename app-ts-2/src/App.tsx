@@ -1,9 +1,14 @@
 import React from 'react'
+import { Store } from './Store'
 
-export default function App() {
+export default function App(): JSX.Element {
+  const store = React.useContext(Store)
+
   return (
-    <div>
-      hello
-    </div>
+    <>
+      {console.log(store)}
+      <h1>Rick and Morty</h1>
+      <p>Pick your favourites episode!!</p>
+    </>
   )
 }
